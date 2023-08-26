@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
-        mavenCentral()
         gradlePluginPortal()
+        maven("https://repo.polyfrost.cc/releases")
     }
 }
 
@@ -11,4 +11,4 @@ plugins {
 
 rootProject.name = "PolySigning"
 
-include(":Cli")
+include(":cli")
